@@ -7,10 +7,12 @@ const TodoForm = props => {
     name="todo"
     type="text"
     value={props.value}
-    placeholder="...todo"
+    placeholder="to do task...."
+    onKeyDown={props.handleKeyDown}
+    onChange={props.handleChange}>
+    {props.currentTodoInput}
     />
-    <button onclick={props.handleAddTodo}>Add Todo</button>
-    <button onclick={props.handleAddTodos}>Clear Completed</button>
+    <button className="todo-add-button" onclick={props.handleAddTodo}>Add Todo</button>
     </form>
   );
 };
