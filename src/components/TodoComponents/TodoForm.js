@@ -1,12 +1,13 @@
 import React from 'react';
 
 
-const TodoForm extends React.Component {
+class TodoForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       item: ""
     };
+
   }
 
   handleChange = event => {
@@ -33,7 +34,7 @@ const TodoForm extends React.Component {
      </form>
    )
   }
-
 }
+
 
 export default TodoForm;

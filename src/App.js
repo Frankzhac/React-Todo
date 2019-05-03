@@ -37,7 +37,7 @@ class App extends React.Component {
       Todo: Todo
     };
   }
-}
+
 
 
 toggleItem = itemId => {
@@ -91,6 +91,6 @@ render() {
     </div>
   );
 };
-
+}
 
 export default App;
