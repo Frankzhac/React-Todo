@@ -1,7 +1,11 @@
 import React from 'react';
+import ReactDOM from "react-dom";
+
 // import './App.css';
+
 import TodoList from './components/TodoComponents/TodoList';
 import TodoForm from './components/TodoComponents/TodoForm';
+
 
 const Todo = [
   {
@@ -24,7 +28,7 @@ const Todo = [
     id: 10,
     completed: false
   },
-]
+];
 
 class App extends React.Component {
   constructor(){
@@ -72,7 +76,7 @@ clearPurchased = event => {
   });
 };
 
-render(); {
+render() {
   return (
     <div className="App">
       <div className="header">
