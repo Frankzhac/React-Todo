@@ -8,9 +8,7 @@ const TodoForm = props => {
     type="text"
     value={props.value}
     placeholder="to do task...."
-    onKeyDown={props.handleKeyDown}
-    onChange={props.handleChange}>
-    {props.currentTodoInput}
+    onChange={props.handleChange}
     />
     <button className="todo-add-button" onclick={props.handleAddTodo}>Add Todo</button>
     </form>
