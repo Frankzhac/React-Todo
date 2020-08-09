@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #2d2d37;
+  font-size: 62.5%;
+  font-family: "Ubuntu";
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: flex;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
